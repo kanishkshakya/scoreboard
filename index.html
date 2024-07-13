@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div >
+        <h1 style="text-align: center; color: white">HOME</h1>
+        <div id="scoreBoardHome">0</div>
+        <div class="boxes">
+          <button class="box"  onclick="add1Value()">+1</button>
+          <button class="box"  onclick="add3Value()">+3</button>
+          <button class="box"  onclick="add5Value()">+5</button>
+        </div>
+        <button class="rset-btn" onclick="resetHome()">Reset Now!</button>
+      </div>
+
+      <div >
+        <h1 style="text-align: center; color: white">GUEST</h1>
+        <div id="scoreBoardGuest">0</div>
+        <div class="boxes">
+          <button class="box" onclick="add1Values()">+1</button>
+          <button class="box" onclick="add3Values()">+3</button>
+          <button class="box" onclick="add5Values()">+5</button>
+        </div>
+        <button class="rset-btn" onclick="resetGuest()">Reset Now!</button>
+
+      </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
